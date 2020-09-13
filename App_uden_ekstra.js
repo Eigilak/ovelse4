@@ -5,7 +5,7 @@ import ScrollViewScreen from "./components/ScrollViewScreen";
 import CarFlatlListScreen from "./components/CarFlatlListScreen";
 import UserListScreen from "./components/UserListScreen";
 
-export default function App() {
+export default function App_uden_ekstra() {
   return (
     <SafeAreaView  style={styles.container}>
 

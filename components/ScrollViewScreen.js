@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
+        padding:50
     },
     StyledView:{
         height:150,
