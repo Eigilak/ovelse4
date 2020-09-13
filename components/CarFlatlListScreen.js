@@ -3,7 +3,7 @@ import {Text, View,SafeAreaView,FlatList, ScrollView,StyleSheet } from 'react-na
 import CarbrandItem from "./Local/CarbrandItem";
 
 
-export default class LocalFlatlList extends Component{
+export default class CarFlatlListScreen extends Component{
     render() {
         // Array af Bilmærker
         const carBrands = [
@@ -81,7 +81,7 @@ export default class LocalFlatlList extends Component{
         return(
             <View style={styles.container}>
                 {/* Title med styling*/ }
-                <Text style={{ fontSize: 20, textAlign:'center',paddingTop:40 }}> 2. FlatList - I all of these nice Carbrands</Text>
+                <Text style={{ fontSize: 20, textAlign:'center',paddingTop:40 }}> 2. FlatList</Text>
                 {/* FlatList komponent med title propertien og en værdi HANS*/ }
                 <FlatList
                     style={styles.inlineScroll}
